@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+
+        <div id="logo">LaLa's Newsagent</div>
+
+        <ul>
+
+            <li> <a href="login.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+
+    </div>
+
+    <div class="container">
+
+
+        <section class="containerform">
+            <div class="grid-container">
+                <p id="error1"></p>
+                <form name="contactSubmit" action="page.php" onsubmit="return validateForm()" method="POST">
+                    <label id="fNameErr">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><span id="nameErr"></span>
+                    <label>Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label>Subject</label>
+                    <textarea id="subject1" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" onclick="submitContact()" value="submit">
+                </form>
+
+
+            </div>
+    </div>
+
+    </section>
+
+
+</body>
+
+</html>
