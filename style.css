@@ -26,6 +26,7 @@
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
   width: 50%;
+  color: white;
 }
 
 .header ul {
@@ -59,7 +60,7 @@
 
 body {
   height: 100vh;
-  color: white;
+  color: black;
   font-size: 36px;
   line-height: 1.6;
   background: gray;
@@ -89,7 +90,7 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -97,7 +98,7 @@ textarea {
 
 input[type=submit] {
   background-color: #4CAF50;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
